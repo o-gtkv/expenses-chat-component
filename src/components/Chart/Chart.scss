@@ -1,0 +1,17 @@
+.chart {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+
+    &Scales {
+        height: 215px;
+        transform: rotate(180deg);
+    }
+
+    &Scale {
+        min-width: 30px;
+        border-radius: 7px;
+        // background-color: #ec755d;
+        border: 1px solid silver;
+    }
+}

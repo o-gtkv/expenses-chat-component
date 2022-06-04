@@ -1,0 +1,46 @@
+.head {
+    display: flex;
+    background-color: #ec755d;
+    justify-content: space-between;
+    border-radius: 12px;
+    padding: 28px 20px;
+    margin-bottom: 15px;
+    max-width: 544px;
+}
+
+.info {
+    line-height: 2;
+    color: white;
+
+    &Title {}
+
+    &Balance {
+        font-size: 24px;
+    }
+}
+
+.circles {
+    transform: translateY(calc(50% - 16px));
+    top: calc(-50% + 16px);
+}
+
+.circle {
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+
+    &1 {
+        border: 2px solid white;
+        background-color: transparent;
+        left: 16px;
+        z-index: 2;
+    }
+
+    &2 {
+        border: 2px solid black;
+        background-color: black;
+        z-index: 1;
+    }
+}

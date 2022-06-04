@@ -1,0 +1,47 @@
+.body {
+    background-color: white;
+    padding: 28px 22px;
+    max-width: 544px;
+    border-radius: 12px;
+}
+
+.chartTitle {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.hr {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border: 1px solid #f8efe6;
+    // background-color: #d3cfc6;
+}
+
+.info {
+    &Col2 {
+        text-align: right;
+    }
+
+    &Col1Text {
+        color: #d3cfc6;
+    }
+
+    &Col2Text {
+        color: #d3cfc6;
+    }
+
+    &Sum {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &SumCol1 {
+        font-size: 32px;
+    }
+
+    &Text {
+        font-size: 14px;
+        color: #d3cfc6;
+    }
+}
